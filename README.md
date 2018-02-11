@@ -1,11 +1,23 @@
-## BitListen - Bitcoin Transaction Visualizer ##
+## BitListen Game Fork ##
+Ever wanted to pop those bubbles?  Well now you can, once I finish this fork.
+  * More cryptocurrency options (BCH, ETH, DSH, LTC, XMR, XRB, NEO, etc)
+  * Bubble direction is reversed to go down instead of up.
+  * Bubbles that are popped by you are added to your fake account.
+  * Bubbles that land are subtracted from your fake account.
+  * Bubble Pop animation size reflects size of value.
+  * Bubble size is counter to values.
+    * Small values are big and slow
+    * Large values are small and fast
+  * Leader-board will track players who login.
+  * IOS and Android app will be built for mobile gaming.
+  * Micro-transactions will unlock power-ups.
 
+## BitListen - Bitcoin Transaction Visualizer ##
 Current version hosted at [**BitListen.com**](http://bitlisten.com/). Project formerly known as "Listen to Bitcoin" (ListenToBitcoin.com has been sold.)
 
 Realtime Bitcoin transaction visualizer written in HTML/Javascript. See and hear new transactions and blocks as they propagate through the Bitcoin Network.
 
 ### Building ###
-
 The project is built and ready-to-go. If you change any of the javascript, you will need to re-build the `bitlisten.min.js` file using Grunt. If you haven't used Grunt before, here is a short tutorial:
 
 1. [Install Node.js](https://nodejs.org/download/).
@@ -19,7 +31,6 @@ The project is built and ready-to-go. If you change any of the javascript, you w
 The compiled/minified script will be output to `bitlisten.min.js`.
 
 ### APIs and Libraries ###
-
 BitListen uses these libraries:
 
 * [Howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) by James Simpson
@@ -31,5 +42,4 @@ BitListen uses these APIs:
 * [Bitstamp.net](https://www.bitstamp.net/) WebSocket API (For Price Ticker)
 
 ### License ###
-
 If you distribute this project in part or in full, please attribute with a link to [the GitHub page](https://github.com/MaxLaumeister/bitlisten). This software is available under the MIT License, details in the included `LICENSE.md` file.
